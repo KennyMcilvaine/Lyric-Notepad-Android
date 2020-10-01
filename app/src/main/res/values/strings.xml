@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lyric Notepad</string>
+    <!--<string name="title_activity_main2">Main2Activity</string>-->
+    <!--<string name="title_activity_splash">splash</string>-->
+    <!--<string name="title_activity_main3">Main3Activity</string>-->
+    <string name="facebook_app_id">156444648392298</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:background="@color/color14"
+    android:titleTextAppearance="@color/color14"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:weightSum="7">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/home" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/notes_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/noteicon" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/recorder"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/record" />
+
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/metronome"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/metronome"
+            android:scaleType="centerInside"
+            android:background="@null"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/change_mode"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/measure_mode" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/settings1"
+            android:scaleType="centerInside"
+            android:background="@null"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/measure_toolbar"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:background="@color/color1"
+    android:titleTextAppearance="@color/color1"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/measure_buttons"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/select_words_measure"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="Add New Measure"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="18dp"
+            android:layout_weight="4"/>
+
+        <ImageButton
+            android:id="@+id/open_measure_spinner"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/openspinner"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/go_measure"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/left_border_search"
+            android:textColor="@android:color/white"
+            android:text=""
+            android:src="@drawable/addnew"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

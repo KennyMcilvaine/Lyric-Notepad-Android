@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e4e4e4</color>
+    <!--<color name="colorIndicator">#a6acaf</color>-->
+    <!--<color name="colorSecondary">#F7F7F7</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="lavenderdark">#4e4e55</color>
+    <color name="orange">#ffdfce</color>
+    <color name="gold">#d3af37</color>
+
+    <color name="whitetransparent">#40FFFFFF</color>
+    <color name="orangedark">#807067</color>
+    <!--<color name="disabled">#969696</color>-->
+
+    <color name="color1">#745A90</color>
+    <color name="color14">#5D267F</color>
+
+    <color name="color9">#264A7F</color>
+    <color name="color10">#0052CC</color>
+
+    <color name="color4">#D3704D</color>
+    <color name="color5">#F17736</color>
+
+    <color name="color16">#666666</color>
+    <color name="color17">#444444</color>
+
+    <!--<color name="color2">#8F617F</color>-->
+    <!--<color name="color3">#A8676C</color>-->
+    <color name="color6">#00337F</color>
+    <!--<color name="color7">#4C95FF</color>-->
+    <!--<color name="color8">#0067FF</color>-->
+    <!--<color name="color11">#4E007F</color>-->
+    <!--<color name="color12">#BA4CFF</color>-->
+    <!--<color name="color13">#9C00FF</color>-->
+    <!--<color name="color15">#7D00CC</color>-->
+</resources>

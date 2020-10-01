@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/spinner_toolbar"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:background="@color/color1"
+    android:titleTextAppearance="@color/color1"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:id="@+id/spinner_buttons"
+        android:weightSum="6">
+        <EditText
+            android:id="@+id/inputWord"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:background="@drawable/inputword_border"
+            android:hint="highlight or enter a word"
+            android:inputType="text"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:maxLines="1"
+            android:layout_weight="4"
+            android:paddingRight="15dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/optionsSpinner"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="Find a Word"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="18dp"
+            android:layout_weight="4"/>
+        <ImageButton
+            android:id="@+id/open_spinner"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/openspinner"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@drawable/left_border_search"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/search"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>
